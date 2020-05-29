@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+body {
+  margin: 0px auto;
+  padding: 0px;
+  background: #FFFFFF;  /* fallback for old browsers */
+  color: #333333 !important;
+  font-family: 'Roboto' !important;
+  }
+
+.colorDark{
+  color:#24243e;
+}
+
+/* centered columns styles */
+.row-centered {
+  text-align:center;
+  }
+  .col-centered {
+  display:inline-block;
+  margin: 0px auto;
+  /* reset the text-align */
+  text-align:left;
+  background-color: #B3B7EE;
+  }
+  .LinkTo{
+    color: dodgerblue;
+    text-decoration: none;
+  }
+  .LinkTo:hover{
+    color: White;
+    text-decoration: none;
+  }
+  .row{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
